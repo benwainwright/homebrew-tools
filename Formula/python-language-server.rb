@@ -2,7 +2,7 @@ class PythonLanguageServer < Formula
   desc "An implementation of the Language Server Protocol for Python"
   homepage "https://github.com/palantir/python-language-server"
   url "https://github.com/palantir/python-language-server/archive/0.25.0.tar.gz"
-  sha256 "f967170b8a9dcfa75ce145de617535abb9b708ee257deac80cb364155c28a622"
+  sha256 "83426d79894ee778d2bce7d3e44e09cf0e7616915138931bc9fa1eaca73c2c7e"
   version "0.25.0"
 
   plist_options :startup => true
