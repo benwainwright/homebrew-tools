@@ -65,8 +65,8 @@ class PythonLanguageServer < Formula
   end
 
   resource "python-jsonrpc-server" do
-    url "https://files.pythonhosted.org/packages/d6/d7/3313dad29ff151e738d1804f496c0f93e83ee5cc35cb8dee17e44588845d/python-jsonrpc-server-0.0.1.tar.gz"
-    sha256 "ebebaa68b732c9d0aa024ffba2c3baca8b5704530f81d5a894a1ab6981b492c7"
+    url "https://files.pythonhosted.org/packages/5a/b4/08d7ff047bb83f9f3549fe34c0f0db917c79020e419426a55cedcf404730/python-jsonrpc-server-0.1.2.tar.gz"
+    sha256 "09b418e3b1ba9032aecc7aefdd185511dd230fb8dacf18ec195d14dfd89d9e54"
   end
 
   resource "python-language-server" do
