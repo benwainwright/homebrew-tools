@@ -1,3 +1,5 @@
+require "language/node"
+
 class DockerfileLanguageServerNodejs < Formula
   version "0.0.20"
   desc "Language server for Dockerfiles powered by NodeJS, TypeScript, and VSCode technologies."
