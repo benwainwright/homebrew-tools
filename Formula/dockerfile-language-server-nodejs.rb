@@ -25,7 +25,8 @@ class DockerfileLanguageServerNodejs < Formula
       <key>ProgramArguments</key>
       <array>
           <string>/usr/local/bin/node</string>
-          <string>/usr/local/bin/docker-langserver --socket=2091</string>
+          <string>/usr/local/bin/docker-langserver</string>
+          <string>--socket=2091</string>
       </array>
       <key>RunAtLoad</key>
       <true/>
