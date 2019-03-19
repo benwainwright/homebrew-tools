@@ -74,6 +74,46 @@ class PythonLanguageServer < Formula
     sha256 "01f4b6273b62cc74cfb107a9c2123b57e43d8617b4d7c1b2afe258d2b0b24bf5"
   end
 
+  resource "autopep8" do
+    url "https://files.pythonhosted.org/packages/5b/ba/37d30e4263c51ee5a655118ac8c331e96a4e45fd4cea876a74b87af9ffc1/autopep8-1.4.3.tar.gz"
+    sha256 "33d2b5325b7e1afb4240814fe982eea3a92ebea712869bfd08b3c0393404248c"
+  end
+
+  resource "mccabe" do
+    url "https://files.pythonhosted.org/packages/06/18/fa675aa501e11d6d6ca0ae73a101b2f3571a565e0f7d38e062eec18a91ee/mccabe-0.6.1.tar.gz"
+    sha256 "dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"
+  end
+
+  resource "pycodestyle" do
+    url "https://files.pythonhosted.org/packages/1c/d1/41294da5915f4cae7f4b388cea6c2cd0d6cd53039788635f6875dfe8c72f/pycodestyle-2.5.0.tar.gz"
+    sha256 "e40a936c9a450ad81df37f549d676d127b1b66000a6c500caa2b085bc0ca976c"
+  end
+
+  resource "pydocstyle" do
+    url "https://files.pythonhosted.org/packages/e1/e6/a0669df17a97e462915a10a7d6c567658b60eceddebf62a3fb9975c00196/pydocstyle-3.0.0.tar.gz"
+    sha256 "5741c85e408f9e0ddf873611085e819b809fca90b619f5fd7f34bd4959da3dd4"
+  end
+
+  resource "pyflakes" do
+    url "https://files.pythonhosted.org/packages/84/f2/ed0ffb887f8138a8fe5a621b8c0bb9598bfb3989e029f6c6a85ee66628ee/pyflakes-2.1.1-py2.py3-none-any.whl"
+    sha256 "17dbeb2e3f4d772725c777fabc446d5634d1038f234e77343108ce445ea69ce0"
+  end
+
+  resource "pylint" do
+    url "https://files.pythonhosted.org/packages/01/8b/538911c0ebc2529f15004f4cb07e3ca562bb9aacea5df89cc25b62e01891/pylint-2.3.1.tar.gz"
+    sha256 "723e3db49555abaf9bf79dc474c6b9e2935ad82230b10c1138a71ea41ac0fff1"
+  end
+
+  resource "rope" do
+    url "https://files.pythonhosted.org/packages/af/9b/e92c1d561631da9fbeaf4d5d67ecb65b7d284a63069ee37aec44a2eefae4/rope-0.12.0.tar.gz"
+    sha256 "031eb54b3eeec89f4304ede816995ed2b93a21e6fba16bd02aff10a0d6c257b7"
+  end
+
+  resource "yapf" do
+    url "https://files.pythonhosted.org/packages/bb/4b/8fa6470611f69c9a3c600e73b0901849e95e0419e0e9d91f99b9568a033f/yapf-0.26.0.tar.gz"
+    sha256 "edb47be90a56ca6f3075fe24f119a22225fbd62c66777b5d3916a7e9e793891b"
+  end
+
   def install
     virtualenv_install_with_resources
     bin.install_symlink "#{libexec}/bin/pyls"
