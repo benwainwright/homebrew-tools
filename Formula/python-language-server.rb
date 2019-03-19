@@ -94,11 +94,6 @@ class PythonLanguageServer < Formula
     sha256 "5741c85e408f9e0ddf873611085e819b809fca90b619f5fd7f34bd4959da3dd4"
   end
 
-  resource "pyflakes" do
-    url "https://files.pythonhosted.org/packages/84/f2/ed0ffb887f8138a8fe5a621b8c0bb9598bfb3989e029f6c6a85ee66628ee/pyflakes-2.1.1-py2.py3-none-any.whl"
-    sha256 "17dbeb2e3f4d772725c777fabc446d5634d1038f234e77343108ce445ea69ce0"
-  end
-
   resource "pylint" do
     url "https://files.pythonhosted.org/packages/01/8b/538911c0ebc2529f15004f4cb07e3ca562bb9aacea5df89cc25b62e01891/pylint-2.3.1.tar.gz"
     sha256 "723e3db49555abaf9bf79dc474c6b9e2935ad82230b10c1138a71ea41ac0fff1"
