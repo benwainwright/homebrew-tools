@@ -4,7 +4,7 @@ class Op < Formula
   homepage 'https://app-updates.agilebits.com/product_history/CLI'
   url 'https://cache.agilebits.com/dist/1P/op/pkg/v0.5.5/op_darwin_amd64_v0.5.5.zip'
   version '0.5.5'
-  sha256 '6be2ef438967ced35e510c5a2e2323801b2f5c81aec839bcfe24cb96dffff1d1'
+  sha256 'e4ea329debcf991434d90728fa3cba531bce5449a08883d3530dfeb796fc3a3b'
 
   def install
     bin.install 'op'
