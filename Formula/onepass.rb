@@ -7,6 +7,7 @@ class Onepass < Formula
   version '1.0.1'
   sha256 'f8331a56ec438f52f61109485766acf002f1c0b089dd8a030bdcc29fe32e9f52'
   depends_on 'op'
+  depends_on 'jq'
 
   def install
     bin.install '1pass'
