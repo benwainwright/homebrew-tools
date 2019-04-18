@@ -39,7 +39,7 @@ class MagicReith < Formula
     <key>StandardOutPath</key>
     <string>/tmp/magic-reith.log</string>
     <key>ThrottleInterval</key>
-    <Integer>1</Integer>
+    <integer>1</integer>
   </dict>
   </plist>
   EOS
