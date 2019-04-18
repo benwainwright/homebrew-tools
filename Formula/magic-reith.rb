@@ -18,7 +18,7 @@ class MagicReith < Formula
 
   def install
     libexec.install Dir["lib/*.sh"]
-    prefix.install "reit"
+    prefix.install "reith"
     bin.install_symlink "#{prefix}/reith"
   end
 end
