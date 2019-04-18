@@ -17,7 +17,10 @@ class MagicReith < Formula
     <key>LowPriorityIO</key>
     <true />
     <key>Environmentvariables</key>
-    <string>#{ENV['PATH']}:/usr/local/bin</string>
+    <dict>
+      <key>PATH</key>
+      <string>#{ENV['PATH']}:/usr/local/bin</string>
+    </dict>
     <key>ProgramArguments</key>
     <array>
       <string>/usr/local/bin/reith</string>
