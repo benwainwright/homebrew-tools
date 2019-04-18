@@ -1,7 +1,7 @@
 class MagicReith < Formula
   desc 'Simply the BBC corporate proxy'
-  url 'https://github.com/benwainwright/magic-reith/archive/0.0.14.tar.gz'
-  sha256 '389f6f603a29cc7bd6188a3988365490fb72ed9c013d68f7c76273bbe9e36b08'
+  url 'https://github.com/benwainwright/magic-reith/archive/0.0.15.tar.gz'
+  sha256 '395408a3dc9c3db2b5c200b8722a13a60898c861633b99e6e250186adffd1370'
 
   plist_options :startup => true
 
