@@ -5,7 +5,7 @@ class MagicReith < Formula
 
   plist_options :startup => true
 
-  depens_on "coreutils"
+  depends_on "coreutils"
 
   def plist; <<~EOS
   <?xml version="1.0" encoding="UTF-8"?>

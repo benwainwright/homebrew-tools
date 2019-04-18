@@ -17,6 +17,8 @@ class PythonLanguageServer < Formula
     <key>Label</key>
     <string>#{plist_name}</string>
     <key>ProgramArguments</key>
+    <key>EnvironmentVariables</key>
+    <string>#{ENV["PATH"]}:/usr/local/bin</string>
     <array>
       <string>/usr/local/bin/pyls</string>
       <string>--tcp</string>
