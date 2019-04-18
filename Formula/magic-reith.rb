@@ -38,9 +38,8 @@ class MagicReith < Formula
     <string>/tmp/magic-reith-error.log</string>
     <key>StandardOutPath</key>
     <string>/tmp/magic-reith.log</string>
-
-    <key>RunAtLoad</key>
-    <true />
+    <key>ThrottleInterval</key>
+    <string>1</string>
   </dict>
   </plist>
   EOS
