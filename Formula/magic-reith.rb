@@ -16,6 +16,8 @@ class MagicReith < Formula
     <string>#{plist_name}</string>
     <key>LowPriorityIO</key>
     <true />
+    <key>Environmentvariables</key>
+    <string>#{ENV['PATH']}:/usr/local/bin</string>
     <key>ProgramArguments</key>
     <array>
       <string>/usr/local/bin/reith</string>
