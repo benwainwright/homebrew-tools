@@ -28,9 +28,9 @@ class MagicReith < Formula
       <string>/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist</string>
     </array>
     <key>StandardErrorPath</key>
-    <string>/var/log/magic-reith-error.log</string>
+    <string>/tmp/magic-reith-error.log</string>
     <key>StandardOutPath</key>
-    <string>/var/log/magic-reith.log</string>
+    <string>/tmp/magic-reith.log</string>
 
     <key>RunAtLoad</key>
     <true />
