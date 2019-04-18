@@ -11,7 +11,7 @@ class MagicReith < Formula
   <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>magic-reith</string>
+    <string>#{plist_name}</string>
     <key>LowPriorityIO</key>
     <key>ProgramArguments</key>
     <array>
@@ -26,6 +26,11 @@ class MagicReith < Formula
       <string>/Library/Preferences/SystemConfiguration/NetworkInterfaces.plist</string>
       <string>/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist</string>
     </array>
+    <key>StandardErrorPath</key>
+    <string>/var/log/magic-reith-error.log</string>
+    <key>StandardOutPath</key>
+    <string>/var/log/magic-reith.log</string>
+
     <key>RunAtLoad</key>
     <true />
   </dict>
