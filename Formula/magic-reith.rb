@@ -4,6 +4,6 @@ class MagicReith < Formula
   sha256 'b17f40e0212783502f4b052f155b5f3a0287fd64cb79112aa310a52f500c7b81'
 
   def install
-    bin.install_symlink "#{prefix}/bin/reith" => 'reith'
+    bin.install_symlink "reith" => "#{prefix}/bin/reith"
   end
 end
