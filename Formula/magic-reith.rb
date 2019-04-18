@@ -18,6 +18,6 @@ class MagicReith < Formula
 
   def install
     prefix.install "reith"
-    bin.install_symlink "reith"
+    bin.install_symlink "#{prefix}/reith
   end
 end
