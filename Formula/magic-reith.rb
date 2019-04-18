@@ -13,6 +13,7 @@ class MagicReith < Formula
     <key>Label</key>
     <string>#{plist_name}</string>
     <key>LowPriorityIO</key>
+    <true />
     <key>ProgramArguments</key>
     <array>
       <string>/usr/local/bin/reith</string>
