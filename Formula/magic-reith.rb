@@ -24,7 +24,7 @@ class MagicReith < Formula
     <key>ProgramArguments</key>
     <array>
       <string>/usr/local/bin/reith</string>
-      <string>onnetworkchange</string>
+      <string>on-network-change</string>
     </array>
     <key>WatchPaths</key>
     <array>
