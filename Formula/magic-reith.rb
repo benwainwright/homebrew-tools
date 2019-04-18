@@ -11,6 +11,23 @@ class MagicReith < Formula
   <plist version="1.0">
   <dict>
     <key>Label</key>
+    <string>magic-reith</string>
+    <key>LowPriorityIO</key>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/local/bin/reith</string>
+      <string>onnetworkchange</string>
+    </array>
+    <key>WatchPaths</key>
+    <array>
+      <string>/etc/resolv.conf</string>
+      <string>/var/run/resolv.conf</string>
+      <string>/private/var/run/resolv.conf</string>
+      <string>/Library/Preferences/SystemConfiguration/NetworkInterfaces.plist</string>
+      <string>/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true />
   </dict>
   </plist>
   EOS
