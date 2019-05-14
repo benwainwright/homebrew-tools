@@ -2,7 +2,7 @@
 class SshCosmos < Formula
   desc 'SSH wrapper for cosmos instances'
   url 'https://github.com/benwainwright/ssh-cosmos/archive/0.0.0.tar.gz'
-  sha256 '27d53a2e7a8ca2a481cc64d6ea465a904e6f85436c1f1044ce3e1d0bbdf2e6f1'
+  sha256 '2d915330f75fcff5ea30a0bd86336e177327b38988d7f09b49317d0fb07a9a2b'
 
   def install
     libexec.install Dir["libexec/*"]
