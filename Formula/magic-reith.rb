@@ -45,9 +45,4 @@ class MagicReith < Formula
   EOS
   end
 
-  def install
-    libexec.install Dir["libexec/*"]
-    prefix.install "reith"
-    bin.install_symlink "#{prefix}/reith"
-  end
 end
