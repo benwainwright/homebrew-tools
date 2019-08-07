@@ -1,7 +1,7 @@
 class Reithd < Formula
   desc 'Never have to think about Reith again'
-  url 'https://github.com/benwainwright/reithd/releases/download/0.1.0/reithd'
-  sha256 'e4b80ab733903296c75e5811c53af09f0cb5b473e436e002105732f6dfc44ea1'
+  url 'https://github.com/benwainwright/reithd/releases/download/0.0.3/reithd'
+  sha256 '3d898441bf80d13b25505281691bd4c403a45e0a0526a9c0cd5e5bf064bbbce7'
   def install
     bin.install "reithd"
   end
