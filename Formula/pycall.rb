@@ -3,7 +3,7 @@ class Pycall < Formula
 
   desc 'API CLI bootstrapping tool'
 
-  url "https://files.pythonhosted.org/packages/ad/ff/e1791c95b285c47b2ce0abe6a6cc1c41b13826a5b67bffc9f58503d01138/pycall-2.3.2.tar.gz"
+  url "https://github.com/benwainwright/call/archive/0.0.2.tar.gz"
   sha256 "f20aa7570c597cc1e122683dd4c54b43d8e984700d29da57240aa39cc6c21cd4"
 
   depends_on "python3"
@@ -58,7 +58,4 @@ class Pycall < Formula
     virtualenv_install_with_resources
   end
 
-  test do
-    false
-  end
 end
