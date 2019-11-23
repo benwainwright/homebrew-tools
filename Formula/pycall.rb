@@ -3,8 +3,8 @@ class Pycall < Formula
 
   desc 'API CLI bootstrapping tool'
 
-  url 'https://github.com/benwainwright/call/archive/0.0.2.tar.gz'
-  sha256 '7cd77bc9ea6505d3811694aa404cb9189c72621549fdb8784eb0530cca5344b1'
+  url 'https://github.com/benwainwright/call/archive/0.0.3.tar.gz'
+  sha256 '597fc4a61f8445e385fec14f929c35742b5eb34f0d2fdae80a862318c78d1100'
 
   depends_on "python3"
 
