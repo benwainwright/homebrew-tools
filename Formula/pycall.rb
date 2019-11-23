@@ -48,11 +48,6 @@ class Pycall < Formula
     sha256 "5159c4975931a1a78bf6602bbebaa366747fce0a56cb2111f44789d2c45e379f"
   end
 
-  resource "pycall" do
-    url "https://files.pythonhosted.org/packages/ad/ff/e1791c95b285c47b2ce0abe6a6cc1c41b13826a5b67bffc9f58503d01138/pycall-2.3.2.tar.gz"
-    sha256 "f20aa7570c597cc1e122683dd4c54b43d8e984700d29da57240aa39cc6c21cd4"
-  end
-
   resource "Pygments" do
     url "https://files.pythonhosted.org/packages/7e/ae/26808275fc76bf2832deb10d3a3ed3107bc4de01b85dcccbe525f2cd6d1e/Pygments-2.4.2.tar.gz"
     sha256 "881c4c157e45f30af185c1ffe8d549d48ac9127433f2c380c24b84572ad66297"
